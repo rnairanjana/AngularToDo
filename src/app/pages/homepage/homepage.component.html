@@ -6,7 +6,9 @@
             </h1>
             <div class="container d-flex flex-column justify-content-center align-items-center">
                 <div class="inputAdd mb-5">
-                    <input type="text">
+                    <input class="inputAdd" type="text" [(ngModel)]="newTaskTitle" />&nbsp;
+          <button class="btn btn-primary" (click)="addNewTask()">Add Item</button>
+
                 </div>  
                 <div class="box p-5">
                     <ul class="list">
